@@ -1,0 +1,98 @@
+html, body
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-color: rgb(32, 32, 32);
+}
+
+p
+{
+	color: white;
+}
+
+#SiteTitle
+{
+	text-align: center;
+	font-size: 4em;
+	color: rgb(223, 223, 223);
+	height: 15vh;
+	vertical-align: middle;
+	line-height: 15vh;
+	height: 2.5em;
+}
+
+#Menu
+{
+	display: flex;
+	flex-wrap: wrap;
+	color: rgb(223, 223, 223);
+	width: 73.5%;
+	margin: auto;
+	height: 3.5em;
+	font-size: 1.5em;
+}
+
+.MenuItem
+{
+	flex-wrap: wrap;
+	text-align: center;
+	flex-grow: 1;
+}
+
+#Display
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	width: 75%;
+	margin: auto;
+}
+
+.Photo
+{
+	height: 150px;
+	padding: 1%;
+}
+
+#FocusFrame
+{
+	position: fixed;
+	display: none;
+	width: 100vw;
+	height: 100%;
+	top: 0vw;
+	left: 0vw;
+	background-color: rgba(0, 0, 0, 0.9);
+	backdrop-filter: blur(10px);
+	overflow-y: scroll;
+}
+
+#Focus
+{
+	position: fixed;
+	height: 85%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.Abstract
+{
+	display: block;
+}
+
+.Nature
+{
+	display: block;
+}
+
+.People
+{
+	display: block;
+}

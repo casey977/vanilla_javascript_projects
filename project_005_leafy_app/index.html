@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport">
+
+	<!--<base href="" target="_self">-->
+
+	<title>Leaflet webapp</title>
+
+	<!-- <link href="img/favicon.png" rel="icon"> -->
+	<!-- <link rel="stylesheet" href="style.css"> -->
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="">
+	<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+	<div id="Map">
+	
+	</div>
+
+	<main>
+
+		<div id="List">
+
+			<h2>Activities</h2>
+
+			<div id="LeList">
+				
+
+
+			</div>
+			
+		</div>
+
+		<div id="New">
+
+			<div class="LeInput" id="NewName">
+				<div class="InputTitle">Name</div>
+				<!-- <span class="InputTitle">Name</span> -->
+				<input type="text" id="NewNameVal">
+			</div>
+
+			<div class="LeInput" id="NewDescr">
+				<div class="InputTitle">Description</div>
+				<!-- <span class="InputTitle">Name</span> -->
+				<input type="text" id="NewDescrVal">
+			</div>
+
+			<div class="LeInput" id="NewLon">
+				<div class="InputTitle">Longitude</div>
+				<!-- <span class="InputTitle">Name</span> -->
+				<input type="text" id="NewLonVal">
+			</div>
+
+			<div class="LeInput" id="NewLat">
+				<div class="InputTitle">Latitude</div>
+				<!-- <span class="InputTitle">Name</span> -->
+				<input type="text" id="NewLatVal">
+			</div>
+
+			<div class="LeInput" id="NewType">
+				<div class="InputTitle">Type</div>
+				<!-- <span class="InputTitle">Name</span> -->
+				<input type="text" id="NewTypeVal">
+			</div>
+
+			<div class="LeInput">
+				<div class="InputTitle">Category</div>
+				<select>
+					<option value="Walking">Walking</option>
+					<option value="Running">Running</option>
+					<option value="Biking">Biking</option>
+					<option value="Skating">Skating</option>
+					<option value="Other">Other</option>
+				</select>
+			</div>
+
+			<div class="LeInput" id="AddActivity">
+				<!-- <div class="InputTitle">Add</div> -->
+				<!-- <span class="InputTitle">Name</span> -->
+				<input type="button" value="Add">
+			</div>
+			
+		</div>
+
+		<div id="Show">
+			
+		</div>
+		
+	</main>
+
+</body>
+
+</html>

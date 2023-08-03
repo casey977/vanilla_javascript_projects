@@ -1,0 +1,39 @@
+html, body, p
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-color: rgb(32, 32, 32);
+}
+
+p
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+#Formula
+{
+	color: white;
+}
+
+#Height, #Weight
+{
+	background-color: lightgrey;
+}
+
+#Front
+{
+	position: absolute;
+	display: block;
+	width: 250px;
+	height: 250px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

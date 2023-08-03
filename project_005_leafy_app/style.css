@@ -1,0 +1,109 @@
+html, body, p
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-color: rgb(32, 32, 32);
+}
+
+h2
+{
+	left: 10%;
+	color: black;
+	text-align: center;
+}
+
+p
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+#Map
+{
+	display: block;
+	position: fixed;
+	width: 75vw;
+	height: 100vh;
+	left: 25vw;
+	cursor: crosshair;
+}
+
+#New, #List, #Show
+{
+	display: none;
+	position: fixed;
+	width: 25vw;
+	height: 100vh;
+	left: 0vw;
+	background-color: darkgrey;
+	color: black;
+}
+
+#NewLatVal, #NewLonVal
+{
+	pointer-events: none;
+}
+
+#AddActivity
+{
+	float: right;
+	width: 50px;
+}
+
+#LeList
+{
+	position: relative;
+	display: block;
+	width: 80%;
+	left: 10%;
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+#LeLeList
+{
+	display: block;
+	background-color: red;
+	height: 1.5em;
+	color: red;
+	background-color: white;
+}
+
+.LeInput
+{
+	display: block;
+	height: 5vh;
+	width: 100%;
+/*	background-color: blue;*/
+}
+
+.InputTitle
+{
+	display: inline-block;
+	line-height: 5vh;
+/*	white-space: nowrap;*/
+	color: black;
+/*	left: 5%;*/
+/*	float: left;*/
+	font-weight: bold;
+/*	text-shadow: 0px 0px 2px grey;*/
+}
+
+input, select
+{
+	display: inline-block;
+	padding:10px;
+	border:0;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	width: 15vw;
+	float: right;
+	margin-right: 0.5vw;
+}
